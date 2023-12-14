@@ -1,0 +1,89 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 0.5%;
+}
+.logo{
+    position: relative;
+    width: 130px;
+    left: -45%;
+    top: -1px;
+}
+h1{
+    font-size: 200%;
+    position: absolute;
+    top: 5%;
+    left: 11%;
+}
+nav ul li {
+    list-style: none;
+    margin-left: 65px;
+    margin-top: 1px;
+    padding: 10px;
+    float: left;
+    position: relative;
+    left: 40%;
+    top: -100px;
+    color: rgb(255, 255, 255);
+}
+li:hover{
+    text-decoration: underline;
+}
+.order{
+    position: relative;
+    top: -50px;   
+    transition: 2s
+}
+.order:hover{
+    transform: scale(0.9);
+}
+#scaloneta{
+    width: 100%;
+}
+#boquita{
+    width: 100%;
+    top: -110px;
+}
+#tigre{
+    width: 100%;
+    top: -110px;
+}
+#river{
+    width: 100%;
+    top: -110px;
+}
+#racing{
+    width: 100%;
+    top: -110px;
+}
+#newells{
+    width: 100%;
+    top: -110px;
+}
+#independiente{
+    width: 100%;
+    top: -110px;
+}
+#sanlore{
+    width: 100%; 
+    top: -110px;
+}
+#huracan{
+    width: 100%;
+    top: -110px;
+}
+#finall{
+    width: 100%;
+    top: -110px;
+}
+#sc{
+    position: relative;
+    bottom: 390px;
+    left: 30%;
+    color: aliceblue;
+    text-decoration: none;
+}

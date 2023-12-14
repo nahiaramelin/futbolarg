@@ -1,0 +1,139 @@
+<style>
+/**le dimos tamaño a la pagina**/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background:#5c78c5;
+  font-family: Verdana;  
+}
+/**HEADER es el encabezado de la Pagina. width establece el ancho de el elemento.  
+La propiedad clear aplica a ambos elementos flotantes y no flotantes. 
+La funcion display: clear; (Define un cuadro de nivel de bloque.)**/
+header {
+    background-color: #000000;
+    width: 110%;
+    clear: both;
+    content: "";
+    position: relative;
+    top: -10px;
+    left: -10px;
+    display: table;
+}
+/**le aplicamos la funcion margin al menu para establecer el margen de los cuatro lados**/
+.menu {
+    width: 900px;
+    margin: 0 auto;
+}
+/**le dimos tamaño al logo de la pagina**/
+#logo {
+    width: 90px;
+    height: 70px;
+    margin-left: -250px;
+    border-radius: 500px;
+    float: left;
+    padding: 3px;
+}
+
+nav {
+    float: right;
+}
+/**<nav> representa una sección de la página cuyo propósito es proporcionar enlaces de navegación, 
+ya sea dentro del documento actual o a otros documentos.El elemento li declara cada uno de los elementos de una lista **/
+/**en esta parte configuramos la barra de navegacion**/
+nav ul li {
+    list-style: none;
+    margin-left: 65px;
+    margin-top: 5px;
+    padding: 10px;
+    float: left;
+    position: relative;
+}
+
+/**En esta parte le damos color al texto**/
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif; 
+}
+/**En esta parte le fuimos dando tamaño a las imagenes**/
+#scaloneta {
+    width: 1400px;
+    height: 800px;
+    position: relative;
+    left: -10px;
+    top: -10px;
+}
+
+#boquita{
+    width: 1400px;
+    height: 800px;
+    position: relative;
+    left: -20px;
+    top: -150px;
+}
+
+#estudiantes{
+    width: 1365px;
+    height: 800px;
+    position: relative;
+    left: -20px;
+    top: -235px;  
+}   
+
+#gimnasia{
+    width: 1400px;
+    height: 800px;
+    position: relative;
+    left: -20px;
+    top: -320px;  
+}    
+
+#river{
+    width: 1400px;
+    height: 900px;
+    position: relative;
+    left: -30px;
+    top: -405px;  
+}
+/**le dimos estilo al Titulo de la pagina**/
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 820px;
+    top: -800px;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+/**le dimos estilos al texto de las imagenes**/
+#h22 {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 125px;
+    top: -945px;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+/**Estiliza el Footer**/
+footer{
+    background-image: url(finalissima.jpg);
+    width: 105%;
+    clear: both;
+    content: '';
+    position: relative;
+    top: -488px;
+    left: -10px;
+    display: table;
+}
+/**En esta parte lo posicionamos las listas**/
+.lol{
+    position: relative;
+    top: -10px;
+    left: -110px;
+}
+
+
+</style>
